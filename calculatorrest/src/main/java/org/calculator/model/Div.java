@@ -8,6 +8,19 @@ import java.util.stream.Stream;
 
 public class Div implements IOperator{
 
+    private static Div obj;
+
+    private Div (){
+
+    }
+
+    public static Div getInstance(){
+        if(obj == null){
+            return new Div();
+        }
+        return obj;
+    }
+
     @Override
     public double execute(List<Double> list) throws OperationException{
         Double first = list.get(0);

@@ -6,6 +6,19 @@ import java.util.stream.Stream;
 
 public class Mult implements IOperator{
 
+    private static Mult obj;
+
+    private Mult (){
+
+    }
+
+    public static Mult getInstance(){
+        if(obj == null){
+            return new Mult();
+        }
+        return obj;
+    }
+
     @Override
     public double execute(List<Double> list) {
         return list.stream().reduce(new Double(1),(a, b) -> a * b);

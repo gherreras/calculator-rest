@@ -14,11 +14,11 @@ public class OperationFactory implements IOperationFactory {
             case ADD:
                 return Add.getInstance();
             case SUB:
-                return new Sub();
+                return Sub.getInstance();
             case MULT:
-                return new Mult();
+                return Mult.getInstance();
             case DIV:
-                return new Div();
+                return Div.getInstance();
             default:
                 throw new BadRequestException("Invalid Operation for param "+operation);
 
