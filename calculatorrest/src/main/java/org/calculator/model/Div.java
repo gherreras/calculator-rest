@@ -1,5 +1,7 @@
 package org.calculator.model;
 
+import org.calculator.util.exception.OperationException;
+
 import java.util.List;
 import java.util.stream.DoubleStream;
 import java.util.stream.Stream;
@@ -7,20 +9,11 @@ import java.util.stream.Stream;
 public class Div implements IOperator{
 
     @Override
-    public long execute(int num1, int num2) {
-
-        return num1 / num2;
-    }
-
-    @Override
-    public double execute(List<Double> list) {
+    public double execute(List<Double> list) throws OperationException{
         Double first = list.get(0);
-        return list.stream().skip(1).reduce(first,
-            (a,b)-> {
-                if(b!=0)
-                    return a/b;
-                else
-                    throw new RuntimeException();
-            });
+        if(list.stream().skip(1).filter(aDouble -> aDouble == 0).findFirst().isPresent()){
+            throw new OperationException("This operation can't perform a division by zero");
+        }
+        return list.stream().skip(1).reduce(first,(a,b)-> a/b);
     }
 }
