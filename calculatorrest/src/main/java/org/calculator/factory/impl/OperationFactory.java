@@ -12,7 +12,7 @@ public class OperationFactory implements IOperationFactory {
 
         switch (operation){
             case ADD:
-                return new Add();
+                return Add.getInstance();
             case SUB:
                 return new Sub();
             case MULT:

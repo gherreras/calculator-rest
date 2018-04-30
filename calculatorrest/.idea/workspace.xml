@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9379bacc-6a94-40eb-81e2-33222c695c37" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CalculatorController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalculatorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/controller/impl/CalculatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="420">
               <caret line="28" column="100" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,8 +79,8 @@
       <file leaf-file-name="Add.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="285">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#318#319#0" expanded="true" />
@@ -139,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperationFactory.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OperationFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="30" />
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,10 +177,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/util/impl/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/util/exception/BadRequestException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/factory/IOperationFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/util/validation/impl/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/IOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Mult.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Sub.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/util/exception/CalculatorExceptionHandler.java" />
@@ -187,6 +186,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Div.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/controller/impl/CalculatorController.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/calculator/model/DivTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java" />
       </list>
     </option>
   </component>
@@ -541,7 +542,7 @@
       <updated>1525028576466</updated>
       <workItem from="1525028584915" duration="162000" />
       <workItem from="1525028790354" duration="7000" />
-      <workItem from="1525031444152" duration="16569000" />
+      <workItem from="1525031444152" duration="17197000" />
     </task>
     <servers />
   </component>
@@ -569,7 +570,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16738000" />
+    <option name="totallyTimeSpent" value="17366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -593,10 +594,10 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32988048" />
       <window_info anchor="bottom" id="Spring" weight="0.32917318" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917318" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32917318" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976744" visible="true" weight="0.30278885" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
@@ -794,28 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/util/validation/impl/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -828,8 +807,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/controller/impl/CalculatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="420">
           <caret line="28" column="100" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
