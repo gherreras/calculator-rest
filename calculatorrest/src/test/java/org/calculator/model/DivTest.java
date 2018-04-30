@@ -14,7 +14,7 @@ public class DivTest {
 
     @Test
     public void validateDivOperation() throws OperationException {
-        IOperator div = new Div();
+        IOperator div = Div.getInstance();
         List<Double> list = new ArrayList<>();
         list.add(Double.valueOf(4));
         list.add(Double.valueOf(2));
@@ -24,7 +24,7 @@ public class DivTest {
 
     @Test
     public void validateDivOperationFirstZero() throws OperationException {
-        IOperator div = new Div();
+        IOperator div = Div.getInstance();
         List<Double> list = new ArrayList<>();
         list.add(Double.valueOf(0));
         list.add(Double.valueOf(2));
@@ -34,7 +34,7 @@ public class DivTest {
 
     @Test(expected = OperationException.class)
     public void validateDivOperationByZero() throws OperationException {
-        IOperator div = new Div();
+        IOperator div = Div.getInstance();
         List<Double> list = new ArrayList<>();
         list.add(Double.valueOf(4));
         list.add(Double.valueOf(0));
