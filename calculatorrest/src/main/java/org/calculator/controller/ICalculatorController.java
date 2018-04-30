@@ -1,6 +1,9 @@
 package org.calculator.controller;
 
+import org.apache.catalina.servlet4preview.http.HttpServletRequest;
+
 public interface ICalculatorController {
 
-    public long operation (String operation , int num1, int num2);
+    public double operation (String operation , HttpServletRequest request);
+
 }

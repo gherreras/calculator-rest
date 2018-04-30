@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9379bacc-6a94-40eb-81e2-33222c695c37" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/controller/ICalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/controller/ICalculatorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/controller/impl/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/controller/impl/CalculatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/factory/IOperationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/factory/IOperationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/model/Div.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/model/Div.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/model/IOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/model/IOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/model/Mult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/model/Mult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/calculator/model/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/calculator/model/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +30,8 @@
       <file leaf-file-name="ICalculatorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/controller/ICalculatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -31,8 +39,8 @@
       <file leaf-file-name="CalculatorController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/controller/impl/CalculatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+            <state relative-caret-position="301">
+              <caret line="37" column="85" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,20 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IOperationFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/factory/IOperationFactory.java">
+      <file leaf-file-name="IValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/util/IValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="60">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperationFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java">
+      <file leaf-file-name="Validator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/util/impl/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +72,11 @@
       <file leaf-file-name="IOperator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/IOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="120">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,12 +84,24 @@
       <file leaf-file-name="Add.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#130#131#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoubleStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/stream/DoubleStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="495" column="11" selection-start-line="495" selection-start-column="11" selection-end-line="495" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -86,9 +109,10 @@
       <file leaf-file-name="Sub.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Sub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
               </folding>
@@ -99,11 +123,14 @@
       <file leaf-file-name="Mult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Mult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="225">
+              <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="67" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#130#131#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,21 +139,10 @@
       <file leaf-file-name="Div.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Div.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="165">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,17 +165,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/calculator/controller/ICalculatorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/controller/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/IOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Sub.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Mult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Div.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/factory/IOperationFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/IOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Mult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Div.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/model/Sub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/controller/ICalculatorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/util/IValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/calculator/util/impl/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/calculator/controller/impl/CalculatorController.java" />
       </list>
     </option>
@@ -247,7 +265,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="calculatorrest" type="b2602c69:ProjectViewProjectNode" />
@@ -256,17 +274,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="calculatorrest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="calculatorrest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,12 +357,12 @@
       <updated>1525028576466</updated>
       <workItem from="1525028584915" duration="162000" />
       <workItem from="1525028790354" duration="7000" />
-      <workItem from="1525031444152" duration="5363000" />
+      <workItem from="1525031444152" duration="13046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5532000" />
+    <option name="totallyTimeSpent" value="13215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -377,13 +386,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Spring" weight="0.32917318" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32917318" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976744" visible="true" weight="0.31155378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976744" visible="true" weight="0.30278885" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5023256" side_tool="true" visible="true" weight="0.31155378" />
+      <window_info id="Favorites" order="2" sideWeight="0.5023256" side_tool="true" weight="0.30278885" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -444,57 +453,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/controller/ICalculatorController.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/BiFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        <state relative-caret-position="133">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/IOperator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Sub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Mult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Div.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -505,10 +477,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/factory/impl/OperationFactory.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/stream/DoublePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="378" column="24" selection-start-line="378" selection-start-column="24" selection-end-line="378" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/stream/DoubleStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="495" column="11" selection-start-line="495" selection-start-column="11" selection-end-line="495" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Mult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Div.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/Sub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/model/IOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/controller/ICalculatorController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/util/IValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/util/impl/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -517,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/calculator/controller/impl/CalculatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        <state relative-caret-position="301">
+          <caret line="37" column="85" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
